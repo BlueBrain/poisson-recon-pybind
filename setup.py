@@ -84,6 +84,7 @@ setup(
     name='poisson_recon_pybind',
     version=VERSION,
     author='BBP',
+    url='https://bbpgitlab.epfl.ch/nse/poisson-recon-pybind',
     author_email='luc.guyot@epfl.ch',
     description='A Python binding for the surface reconstruction '
     'method of PoissonRecon',
