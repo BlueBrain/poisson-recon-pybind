@@ -1,0 +1,4 @@
+include:
+  - project: nse/ci
+    ref: NSETM-1401_add_pipelines
+    file: /ci/pipelines/nse.poisson-recon-pybind.yml

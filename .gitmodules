@@ -1,0 +1,6 @@
+[submodule "extlib/pybind11"]
+	path = extlib/pybind11
+	url = https://github.com/pybind/pybind11
+[submodule "extlib/PoissonRecon/PoissonRecon"]
+	path = extlib/PoissonRecon/PoissonRecon
+	url = https://github.com/intel-isl/Open3D-PoissonRecon

@@ -1,0 +1,7 @@
+recursive-include src *
+include CMakeLists.txt
+
+# pybind11
+include extlib/CMakeLists.txt
+recursive-include extlib/pybind11/ *
+recursive-include extlib/PoissonRecon/ *
