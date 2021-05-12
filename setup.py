@@ -81,7 +81,7 @@ install_requires = [REQUIRED_NUMPY_VERSION]
 
 
 setup(
-    name='poisson_recon_pybind',
+    name='poisson-recon-pybind',
     version=VERSION,
     author='BBP',
     url='https://bbpgitlab.epfl.ch/nse/poisson-recon-pybind',
