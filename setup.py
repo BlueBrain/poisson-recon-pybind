@@ -4,13 +4,17 @@ import subprocess
 
 from setuptools import setup, Extension
 from setuptools.command.build_ext import build_ext
+import importlib.util
 
-import imp
 
+spec = importlib.util.spec_from_file_location(
+    "poisson_recon_pybind.version",
+    "poisson_recon_pybind/version.py",
+)
+module = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(module)
+VERSION = module.__version__
 
-VERSION = imp.load_source(
-    "poisson_recon_pybind.version", "poisson_recon_pybind/version.py"
-).VERSION
 REQUIRED_NUMPY_VERSION = "numpy>=1.12.0"
 MIN_CPU_CORES = 2
 
