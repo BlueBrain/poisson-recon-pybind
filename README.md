@@ -27,3 +27,10 @@ $> tox
 * Eigen C++ library (http://eigen.tuxfamily.org/)
 * C++ compiler (with C++11 support)
 
+## Acknowledgements
+
+The development of this software was supported by funding to the Blue Brain Project, a research center of the École polytechnique fédérale de Lausanne (EPFL), from the Swiss government’s ETH Board of the Swiss Federal Institutes of Technology.
+
+For license see LICENSE.txt.txt respectively.
+
+Copyright © 2021-2024 Blue Brain Project/EPFL
